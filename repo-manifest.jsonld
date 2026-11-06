@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/tsutsu3/linkify-it-py/commit/84af472a80932acaa102d016383fdd94f3c7743e",
       "git:hexsha": "84af472a80932acaa102d016383fdd94f3c7743e",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "v2.2.0"
     },
     {
