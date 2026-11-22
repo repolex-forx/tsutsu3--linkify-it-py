@@ -117,6 +117,152 @@
       ],
       "ast": [
         "aggregate/ast/b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "uc-micro-py",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "tsutsu3",
+          "githubRepo": "uc.micro-py",
+          "githubCommit": "c70dfb3f5c3963705cc7da8291ee32fbf8ab4943",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/tsutsu3/uc.micro-py",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "coverage",
+          "ecosystem": "PYPI",
+          "version": "7.17.4",
+          "githubOrg": "coveragepy",
+          "githubRepo": "coveragepy",
+          "githubCommit": "fd8e601e25c1e8dde3440fb019ec08283af1bf78",
+          "githubTag": "7.17.4",
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+          "githubTag": "v7.1.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pre-commit",
+          "ecosystem": "PYPI",
+          "version": "4.7.0",
+          "githubOrg": "pre-commit",
+          "githubRepo": "pre-commit",
+          "githubCommit": "65bb884a567e8be6adc51e8bfbcf26f708eb35a2",
+          "githubTag": "v4.7.0",
+          "githubUrl": "https://github.com/pre-commit/pre-commit",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "isort",
+          "ecosystem": "PYPI",
+          "version": "9.0.2",
+          "githubOrg": "PyCQA",
+          "githubRepo": "isort",
+          "githubCommit": "9f905615631c545f5aea2516508109350d1d2f7d",
+          "githubTag": "9.0.2",
+          "githubUrl": "https://github.com/PyCQA/isort",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "flake8",
+          "ecosystem": "PYPI",
+          "version": "7.5.0",
+          "githubOrg": "pycqa",
+          "githubRepo": "flake8",
+          "githubCommit": "1c7fec1973ed3a7c192dbe1e96906fbbd1dbe49e",
+          "githubTag": "7.5.0",
+          "githubUrl": "https://github.com/pycqa/flake8",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "black",
+          "ecosystem": "PYPI",
+          "version": "26.10.1",
+          "githubOrg": "psf",
+          "githubRepo": "black",
+          "githubCommit": "258e7dbf348bc23cb70b8cdf693481c04634ebcc",
+          "githubTag": "26.10.1",
+          "githubUrl": "https://github.com/psf/black",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pyproject-flake8",
+          "ecosystem": "PYPI",
+          "version": "7.0.0",
+          "githubOrg": "csachs",
+          "githubRepo": "pyproject-flake8",
+          "githubCommit": "f437765d44b0923f852bf251c1dd5a5752a8415b",
+          "githubTag": "v7.0.0",
+          "githubUrl": "https://github.com/csachs/pyproject-flake8",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-benchmark",
+          "ecosystem": "PYPI",
+          "version": "5.3.1",
+          "githubOrg": "ionelmc",
+          "githubRepo": "pytest-benchmark",
+          "githubCommit": "97c52d8e0de0ac4f307e35716f723bf0376d63d2",
+          "githubTag": "v5.3.1",
+          "githubUrl": "https://github.com/ionelmc/pytest-benchmark",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+          "githubTag": "v9.2.0",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx-book-theme",
+          "ecosystem": "PYPI",
+          "version": "1.4.0",
+          "githubOrg": "executablebooks",
+          "githubRepo": "sphinx-book-theme",
+          "githubCommit": "52c7cbb8072bef0f60687c50d12af8c885251ba1",
+          "githubTag": "v1.4.0",
+          "githubUrl": "https://github.com/executablebooks/sphinx-book-theme",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "myst-parser",
+          "ecosystem": "PYPI",
+          "version": "5.2.0",
+          "githubOrg": "executablebooks",
+          "githubRepo": "MyST-Parser",
+          "githubCommit": "5137add4d72260c99e0c2e9f9a7c2ff8306ec930",
+          "githubTag": "v5.2.0",
+          "githubUrl": "https://github.com/executablebooks/MyST-Parser",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],
