@@ -36,13 +36,23 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
-│   │   └── 84af472a80932acaa102d016383fdd94f3c7743e
+│   │   ├── 84af472a80932acaa102d016383fdd94f3c7743e
+│   │   │   └── chunk-001.nq.gz
+│   │   └── b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380.nq.gz
 │   └── repolex
-│       └── 84af472a80932acaa102d016383fdd94f3c7743e
+│       ├── 84af472a80932acaa102d016383fdd94f3c7743e
+│       │   └── chunk-001.nq.gz
+│       └── b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380
 │           └── chunk-001.nq.gz
 ├── blob
+│   ├── 063def51176ef474a8311ea36abce6c8e2bbf276.nq.gz
+│   ├── 0df14cbe250743b1cfdff14d9297b78e16804390.nq.gz
 │   ├── 0f717ba78c2b4cbf87ffafefdf320ed8c12f6b2d.nq.gz
+│   ├── 1971ca1004603af5ec9970a90251f1d36d29b15d.nq.gz
+│   ├── 1b5a049fdadde1feeee379908866dabeed71409a.nq.gz
 │   ├── 2679c757794d33847fce23252b1fd6345c9dd415.nq.gz
 │   ├── 273185b2c7b1c1ad3e5832ceda0797fbbbd70343.nq.gz
 │   ├── 29b2a9ba4468c9b5e86eb7f4a63956903a1b6634.nq.gz
@@ -51,6 +61,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 3f2f99d8cc996c4c0671a789f7141f7b17152135.nq.gz
 │   ├── 410f275e7b2ee3a6f4935c61b1d4f14df4b41bbd.nq.gz
 │   ├── 47860603e059d812e438f5d3343ef39a725fa63c.nq.gz
+│   ├── 525a0e6c9872bcfdd8991df50a4d32ae92a35497.nq.gz
+│   ├── 62c7dcfa49c616a319c3139c7b7e2785f04c1088.nq.gz
 │   ├── 645cb53b14ebb99635676ede700eaa6c7b055027.nq.gz
 │   ├── 6810e586f8780f4d898c8da407514c2bd5f059ec.nq.gz
 │   ├── 6c06b6503b97f12eb88895a2d62612a02b54d0d1.nq.gz
@@ -59,6 +71,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 79bf2970fed75d87b63d120f1e58c2c40e30bc67.nq.gz
 │   ├── 7cab9564a3738978adaf3f3e7bdb39ec5d66754a.nq.gz
 │   ├── 7f156f3e783ae4007224f0e411b23582e6ecdecf.nq.gz
+│   ├── 80195092a20df1a2c5f5dee1541a05b71f634189.nq.gz
+│   ├── 8814cd24c6a940d3953474f39288f3fc9cab6fac.nq.gz
 │   ├── 8ef7eeceec3c7a76936d2c85036e1a1602b51f8f.nq.gz
 │   ├── 9191f1dc8926828b805539878554c4e7656edb58.nq.gz
 │   ├── 922152e96a04a242e6fc40f124261d74890617d8.nq.gz
@@ -68,6 +82,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 9f2f833f362c6ddee512bceb572ba29c2d49349a.nq.gz
 │   ├── a0140d1b7158775e1bd45ae2b08a2555158823d7.nq.gz
 │   ├── a85db292f04e1883d18b7b978b93564aaf5918c9.nq.gz
+│   ├── a9f4bdbb5c8d53191b89737b915c67d7025b5d64.nq.gz
 │   ├── acb88a3c1cf2250b7f727fa841643acaa001bb5e.nq.gz
 │   ├── aed2885a7b22704d8c64f62947a38f5a79ee0ec1.nq.gz
 │   ├── b9474769b3aa4aeb1f46738528d5b8c4664addce.nq.gz
@@ -80,6 +95,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── d4bb2cbb9eddb1bb1b4f366623044af8e4830919.nq.gz
 │   ├── da3fefbb00a68de776412915dd617c0af01df227.nq.gz
 │   ├── deb8c86672bb8efb1972f0c73566f2962b5e1c62.nq.gz
+│   ├── df2edf61888b2c9641d367992dd0e43d7fa56dfa.nq.gz
+│   ├── e3f229fc170af4cc89ca5ecd265406473f9626dc.nq.gz
 │   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
 │   ├── ee5163bd6fba379534eb269dffb0428f613306d2.nq.gz
 │   └── f32856ad1652157d5a5d1877071e18de01455bae.nq.gz
@@ -87,8 +104,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380.nq.gz
 ├── filetree
-│   └── 84af472a80932acaa102d016383fdd94f3c7743e.nq.gz
+│   ├── 84af472a80932acaa102d016383fdd94f3c7743e.nq.gz
+│   └── b9ee3494c2eb2d1fa4982dcbf00777b6bbc8e380.nq.gz
 ├── issue
 │   └── issue.nq.gz
 ├── pr
@@ -96,7 +116,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 49 files
+17 directories, 65 files
 ```
 
 | Directory | What it contains |
@@ -117,4 +137,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [tsutsu3/linkify-it-py](https://github.com/tsutsu3/linkify-it-py)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*
